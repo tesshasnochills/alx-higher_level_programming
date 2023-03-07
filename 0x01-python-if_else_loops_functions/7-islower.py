@@ -2,7 +2,7 @@
 
 def islower(c):
 
-    if char(c) >= 97 and char(c) <= 127:
+    if ord(c) >= 97 and ord(c) <= 127:
         return True
     else:
         return False

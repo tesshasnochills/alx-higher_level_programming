@@ -3,6 +3,7 @@ if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
     from sys import argv, exit
 
+    # implementing a simple generic CLI calculator
     if len(argv) - 1 != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
@@ -14,4 +15,4 @@ if __name__ == "__main__":
 
     a = int(argv[1])
     b = int(argv[3])
-    print("{} {} {} = {}".format(a, argv[2], b, ops[argv[2]](a,b)))
+    print("{} {} {} = {}".format(a, argv[2], b, ops[argv[2]](a, b)))

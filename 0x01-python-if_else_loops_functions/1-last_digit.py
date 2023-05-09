@@ -2,19 +2,19 @@
 import random
 number = random.randint(-10000, 10000)
 
-print(f"Last digit of {number}", end=" ")
-
-if number > 0:
-    last = number % 10
+num = number
+if num < 0:
+    num *= -1
 else:
-    number = abs(number) * -1
-    last = number % 10
-
-print(f"is {last}", end=" ")
-
-if last > 5:
-    print(f"and is greater then 5")
-elif last == 0:
-    print(f"and is 0")
+    num = number
+if number < 0:
+    result = (num % 10) * - 1
 else:
-    print(f"and is less than 6 and not 0")
+    result = num % 10
+
+if result % 10 == 0:
+    print("Last digit of {} is {} and is 0".format(number, result))
+elif result > 5:
+    print(f"Last digit of {number} is {result} and is greater than 5")
+else:
+    print(f"Last digit of {number} is {result} and is less than 6 and not 0")

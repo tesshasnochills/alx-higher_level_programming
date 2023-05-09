@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for dig1 in range(0, 10):
-    for dig2 in range( dig1 + 1, 10):
-        if dig1 == 8 and dig2 == 9:
-            print("{}{}".format(dig1, dig2))
+for x in range(0, 10):
+    for y in range(x + 1, 10):
+        if x == 8 and y == 9:
+            print("{}{}".format(x, y))
         else:
-            print("{}{}".format(dig1, dig2), end=", ")
+            print("{}{}".format(x, y), end="")

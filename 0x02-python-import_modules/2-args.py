@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     from sys import argv
-
+    # printing command line args
     while (len(argv) > 1):
         if (len(argv) == 2):
-            print("{} argument:".format(len(argv) -1))
+            print("{} argument:".format(len(argv) - 1))
             print("{}: {}".format(len(argv) - 1, argv[1]))
             exit()
         else:

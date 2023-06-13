@@ -13,9 +13,9 @@ Square class
 
 
 class Square(Rectangle):
-    """ Square class"""
+    """ Square Class """
     def __init__(self, size):
-        """size init"""
+        """ size init"""
         self.__size = size
         super().__init__(self.__size, self.__size)
 

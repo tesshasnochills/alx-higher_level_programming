@@ -6,7 +6,7 @@ Readfile function
 
 def read_file(filename=""):
     """ readfile - function that reads a file
-    
+
     Args:
         @filename = name of the file
     """

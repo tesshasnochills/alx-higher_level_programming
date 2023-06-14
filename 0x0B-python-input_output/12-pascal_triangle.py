@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ module: factorial """
 
+
 def factorial(n):
     """ function to get the factorial of a number
 
@@ -10,6 +11,7 @@ def factorial(n):
     if n == 0 or n == 1:
         return 1
     return n * factorial(n - 1)
+
 
 def pascal_triangle(n):
     """pascal triangle

@@ -5,6 +5,7 @@
 def factorial(n):
     """ function to get the factorial of a number
 
+
     Args:
         @n: the value
     """
@@ -14,10 +15,11 @@ def factorial(n):
 
 
 def pascal_triangle(n):
-    """pascal triangle
+    """ pascal triangle
+
 
     Args:
-        @n: value of the triangle table
+        @n: the value of the triangle table
     """
     if n <= 0:
         return []

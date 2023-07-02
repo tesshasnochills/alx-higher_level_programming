@@ -1,4 +1,4 @@
-#!/usr/usr/bin/python3
+#!/usr/bin/python3
 """module for the base model"""
 import json
 import os.path

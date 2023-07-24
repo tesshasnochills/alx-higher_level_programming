@@ -1,2 +1,2 @@
--- script thats lists rows of the table
-SELECT * FROM 'first_table';
+-- show all row from first table
+SELECT * FROM `first_table`;

@@ -1,0 +1,1 @@
+First ALX task on Javascript-warm up
